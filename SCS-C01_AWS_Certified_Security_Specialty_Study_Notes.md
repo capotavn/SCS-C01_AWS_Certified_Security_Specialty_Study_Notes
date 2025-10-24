@@ -6,24 +6,24 @@
 ---
 
 ## Table of Contents
-1. [Introduction & Shared Responsibility Model](#chapter-1-introduction)
-2. [Identity and Access Management (IAM)](#chapter-2-iam)
-3. [Managing Accounts](#chapter-3-accounts)
-4. [Policies and Procedures for Secure Access](#chapter-4-policies)
-5. [Securing the Network: VPC](#chapter-5-vpc)
-6. [Network Access Protection Beyond VPC](#chapter-6-advanced-network)
-7. [Protecting Data in the Cloud](#chapter-7-data-protection)
-8. [Logging and Audit Trails](#chapter-8-logging)
-9. [Continuous Monitoring](#chapter-9-monitoring)
-10. [Incident Response and Remediation](#chapter-10-incident-response)
-11. [Securing Real-World Applications](#chapter-11-application-security)
-12. [Key AWS Security Services Reference](#security-services-reference)
-13. [Common Exam Traps & Scenarios](#exam-traps)
-14. [Acronyms & Definitions](#acronyms)
+1. [Introduction & Shared Responsibility Model](#introduction--shared-responsibility-model)
+2. [Identity and Access Management (IAM)](#identity-and-access-management-iam)
+3. [Managing Accounts](#managing-accounts)
+4. [Policies and Procedures for Secure Access](#policies-and-procedures-for-secure-access)
+5. [Securing the Network: VPC](#securing-the-network---vpc)
+6. [Network Access Protection Beyond VPC](#network-access-protection-beyond-vpc)
+7. [Protecting Data in the Cloud](#protecting-data-in-the-cloud)
+8. [Logging and Audit Trails](#logging-and-audit-trails)
+9. [Continuous Monitoring](#continuous-monitoring)
+10. [Incident Response and Remediation](#incident-response-and-remediation)
+11. [Securing Real-World Applications](#securing-real-world-applications)
+12. [Key AWS Security Services Reference](#key-aws-security-services-reference)
+13. [Common Exam Traps & Scenarios](#common-exam-traps--scenarios)
+14. [Acronyms & Definitions](#acronyms--definitions)
 
 ---
 
-## Chapter 1: Introduction & Shared Responsibility Model {#chapter-1-introduction}
+## Chapter 1: Introduction & Shared Responsibility Model
 
 ### Core Concepts
 
@@ -81,7 +81,7 @@
 
 ---
 
-## Chapter 2: Identity and Access Management (IAM) {#chapter-2-iam}
+## Chapter 2: Identity and Access Management (IAM)
 
 ### IAM Core Components
 
@@ -252,7 +252,7 @@ aws sts assume-role \
 
 ---
 
-## Chapter 3: Managing Accounts {#chapter-3-accounts}
+## Chapter 3: Managing Accounts
 
 ### AWS Organizations
 
@@ -432,7 +432,7 @@ Root
 
 ---
 
-## Chapter 4: Policies and Procedures for Secure Access {#chapter-4-policies}
+## Chapter 4: Policies and Procedures for Secure Access
 
 ### IAM Best Practices Framework
 
@@ -665,7 +665,7 @@ aws iam update-account-password-policy \
 
 ---
 
-## Chapter 5: Securing the Network - VPC {#chapter-5-vpc}
+## Chapter 5: Securing the Network - VPC
 
 ### VPC Fundamentals
 
@@ -1011,7 +1011,7 @@ aws ec2 create-vpn-connection \
 
 ---
 
-## Chapter 6: Network Access Protection Beyond VPC {#chapter-6-advanced-network}
+## Chapter 6: Network Access Protection Beyond VPC
 
 ### Private Connectivity Without Internet Gateway
 
@@ -1416,7 +1416,7 @@ exports.handler = (event, context, callback) => {
 
 ---
 
-## Chapter 7: Protecting Data in the Cloud {#chapter-7-data-protection}
+## Chapter 7: Protecting Data in the Cloud
 
 ### Data Protection Principles
 
@@ -1850,7 +1850,7 @@ password = secret['password']
 
 ---
 
-## Chapter 8: Logging and Audit Trails {#chapter-8-logging}
+## Chapter 8: Logging and Audit Trails
 
 ### AWS CloudTrail
 
@@ -2283,7 +2283,7 @@ fields srcAddr, dstAddr, srcPort, dstPort, action
 
 ---
 
-## Chapter 9: Continuous Monitoring {#chapter-9-monitoring}
+## Chapter 9: Continuous Monitoring
 
 ### Security Monitoring Strategy
 
@@ -2621,7 +2621,7 @@ Alarm: Any change → SNS notification
 
 ---
 
-## Chapter 10: Incident Response and Remediation {#chapter-10-incident-response}
+## Chapter 10: Incident Response and Remediation
 
 ### Incident Response Framework
 
@@ -3101,7 +3101,7 @@ aws ec2 attach-volume \
 
 ---
 
-## Chapter 11: Securing Real-World Applications {#chapter-11-application-security}
+## Chapter 11: Securing Real-World Applications
 
 ### Sample Application Architecture
 
@@ -3629,7 +3629,7 @@ aws lambda create-function \
 
 ---
 
-## Key AWS Security Services Reference {#security-services-reference}
+## Key AWS Security Services Reference
 
 ### Identity & Access Management
 | Service | Purpose | Key Features |
@@ -3686,7 +3686,7 @@ aws lambda create-function \
 
 ---
 
-## Common Exam Traps & Scenarios {#exam-traps}
+## Common Exam Traps & Scenarios
 
 ### Question Pattern Recognition
 
@@ -3854,7 +3854,7 @@ aws lambda create-function \
 
 ---
 
-## Acronyms & Definitions {#acronyms}
+## Acronyms & Definitions
 
 ### Core AWS Acronyms
 
